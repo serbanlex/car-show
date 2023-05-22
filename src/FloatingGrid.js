@@ -4,7 +4,7 @@ import { RepeatWrapping, TextureLoader } from "three";
 import { useState } from "react";
 
 export function FloatingGrid() {
-  const diffuse = useLoader(TextureLoader, process.env.PUBLIC_URL + "textures/grid-texture.png");
+  const diffuse = useLoader(TextureLoader, process.env.PUBLIC_URL + "/textures/grid-texture.png");
   const [isReversed, setIsReversed] = useState(false);
 
   useEffect(() => {

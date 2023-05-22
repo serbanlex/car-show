@@ -6,8 +6,8 @@ import { LinearEncoding, RepeatWrapping, TextureLoader } from "three";
 export function Ground() {
   // thanks to https://polyhaven.com/a/rough_plasterbrick_05 !
   const [roughness, normal] = useLoader(TextureLoader, [
-    process.env.PUBLIC_URL + "textures/terrain-roughness.jpg",
-    process.env.PUBLIC_URL + "textures/terrain-normal.jpg",
+    process.env.PUBLIC_URL + "/textures/terrain-roughness.jpg",
+    process.env.PUBLIC_URL + "/textures/terrain-normal.jpg",
   ]);
   const [isReversed, setIsReversed] = useState(false);
 

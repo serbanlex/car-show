@@ -8,7 +8,7 @@ import { Mesh } from "three";
 export function Car() {
   const gltf = useLoader(
     GLTFLoader,
-    process.env.PUBLIC_URL + "models/car/scene.gltf"
+    process.env.PUBLIC_URL + "/models/car/scene.gltf"
   );
   const [isReversed, setIsReversed] = useState(false);
 
